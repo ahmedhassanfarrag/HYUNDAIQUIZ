@@ -1,0 +1,263 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#B388FF</item>
+        <item name="colorPrimaryDark">#2196F3</item>
+        <item name="colorAccent">#76FF03</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="scrool">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="LinearLayout1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/innn</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+
+    <style name="ImageView1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">170dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:background">@drawable/hyundailogo</item>
+    </style>
+
+    <style name="ImageView2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">230dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:background">@drawable/hyundailogo</item>
+    </style>
+
+    <style name="welcomeText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">#6A1B9A</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="informationMessage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">#880E4F</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">italic|bold</item>
+    </style>
+
+    <style name="view1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:layout_marginBottom">24dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">#E040FB</item>
+    </style>
+
+    <style name="questionNumber">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textColor">#311B92</item>
+    </style>
+
+    <style name="questionText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:textColor">#311B92</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="RadioGroup">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="RadioButton1A">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="RadioButton1B">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">18dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="RadioButton1C">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">18dp</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="view2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:layout_marginBottom">24dp</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:background">#E040FB</item>
+    </style>
+
+    <style name="RadioButtonFirstChose">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">18dp</item>
+
+    </style>
+
+    <style name="RadioButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:layout_marginLeft">18dp</item>
+    </style>
+
+
+    <style name="RadioButtonVertical">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">24dp</item>
+    </style>
+
+    <style name="LinearLayoutHorizontal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="CheckBox1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">24dp</item>
+
+    </style>
+
+    <style name="CheckBox2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:layout_marginLeft">49dp</item>
+
+    </style>
+
+    <style name="CheckBox3">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:layout_marginLeft">40dp</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">number</item>
+    </style>
+
+    <style name="CheckBox4">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:layout_marginLeft">24dp</item>
+
+    </style>
+
+    <style name="CheckBox5">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:layout_marginLeft">50dp</item>
+
+    </style>
+
+    <style name="RadioGroupVertical">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="LinearLayoutVertical">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="checkYourScore">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:background">#283593</item>
+        <item name="android:textColor">#FFFF00</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="LinearLayoutVertica2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="textScore">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">#283593</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:visibility">gone</item>
+
+    </style>
+
+    <style name="Answer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
+        <item name="android:background">#388E3C</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">#FFFF00</item>
+    </style>
+
+    <style name="Reset">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
+        <item name="android:background">#D32F2F</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">#FFFF00</item>
+    </style>
+
+
+</resources>

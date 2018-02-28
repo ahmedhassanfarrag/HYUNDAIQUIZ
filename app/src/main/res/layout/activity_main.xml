@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrol"
+    style="@style/scrool">
+
+    <LinearLayout
+        style="@style/LinearLayout1"
+        tools:context="com.example.android.justjava3.MainActivity">
+
+        <ImageView
+            style="@style/ImageView1"
+            android:importantForAccessibility="no" />
+
+
+        <TextView
+            style="@style/welcomeText"
+            android:text="@string/welcome_to_Hyundai_Quiz" />
+
+        <TextView
+            style="@style/informationMessage"
+            android:text="@string/check_your_information" />
+
+        <View style="@style/view1" />
+
+        <TextView
+            style="@style/questionNumber"
+            android:text="@string/Q_1" />
+
+        <TextView
+            style="@style/questionText"
+            android:text="@string/Q_1_text" />
+
+        <RadioGroup
+            android:id="@+id/RGroup1"
+            style="@style/RadioGroup">
+
+            <RadioButton
+                android:id="@+id/Japan"
+                style="@style/RadioButton1A"
+                android:text="@string/Japan" />
+
+            <RadioButton
+                android:id="@+id/China"
+                style="@style/RadioButton1B"
+                android:text="@string/China" />
+
+            <RadioButton
+                android:id="@+id/South_Korea"
+                style="@style/RadioButton1C"
+                android:text="@string/South_Korea" />
+        </RadioGroup>
+
+        <View style="@style/view2" />
+
+        <TextView
+            style="@style/questionNumber"
+            android:text="@string/Q_2" />
+
+        <TextView
+            style="@style/questionText"
+            android:text="@string/Q_2_text" />
+
+        <RadioGroup
+            android:id="@+id/RGroup2"
+            style="@style/RadioGroup">
+
+            <RadioButton
+                android:id="@+id/top_speed_388"
+                style="@style/RadioButtonFirstChose"
+                android:text="@string/_388" />
+
+            <RadioButton
+                android:id="@+id/top_speed_429"
+                style="@style/RadioButton"
+                android:text="@string/_429" />
+
+            <RadioButton
+                android:id="@+id/top_speed_317"
+                style="@style/RadioButton"
+                android:text="@string/_317" />
+        </RadioGroup>
+
+
+        <View style="@style/view2" />
+
+        <TextView
+            style="@style/questionNumber"
+            android:text="@string/Q_3" />
+
+        <TextView
+            style="@style/questionText"
+            android:text="@string/Q_3_text" />
+
+        <RadioGroup
+            android:id="@+id/RGroup3"
+            style="@style/RadioGroupVertical">
+
+            <RadioButton
+                android:id="@+id/New_Thinking_New_Possibilities"
+                style="@style/RadioButtonVertical"
+                android:text="@string/New_Thinking_New_Possibilities" />
+
+            <RadioButton
+                android:id="@+id/The_Power_to_Surprise"
+                style="@style/RadioButtonVertical"
+                android:text="@string/The_Power_to_Surprise" />
+
+            <RadioButton
+                android:id="@+id/Never_Follow"
+                style="@style/RadioButtonVertical"
+                android:text="@string/Never_Follow" />
+        </RadioGroup>
+
+        <View style="@style/view2" />
+
+        <TextView
+            style="@style/questionNumber"
+            android:text="@string/Q_4" />
+
+        <TextView
+            style="@style/questionText"
+            android:text="@string/Q_4_text" />
+
+        <LinearLayout style="@style/LinearLayoutHorizontal">
+
+            <CheckBox
+                android:id="@+id/Excel"
+                style="@style/CheckBox1"
+                android:text="@string/Excel" />
+
+            <CheckBox
+                android:id="@+id/Pulsar"
+                style="@style/CheckBox2"
+                android:text="@string/Pulsar" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LinearLayoutHorizontal">
+
+            <CheckBox
+                android:id="@+id/Cerato"
+                style="@style/CheckBox1"
+                android:text="@string/Cerato" />
+
+            <CheckBox
+                android:id="@+id/i10"
+                style="@style/CheckBox3"
+                android:text="@string/i10" />
+        </LinearLayout>
+
+        <View style="@style/view2" />
+
+        <TextView
+            style="@style/questionNumber"
+            android:text="@string/Q_5" />
+
+        <TextView
+            style="@style/questionText"
+            android:text="@string/Q_5_text" />
+
+        <EditText
+            android:id="@+id/answer_Year"
+            style="@style/EditText"
+            android:hint="@string/Year" />
+
+        <View style="@style/view2" />
+
+        <TextView
+            style="@style/questionNumber"
+            android:text="@string/Q_6" />
+
+        <TextView
+
+            style="@style/questionText"
+            android:text="@string/Q_6_text" />
+
+        <LinearLayout style="@style/LinearLayoutHorizontal">
+
+            <CheckBox
+                android:id="@+id/Suzuki"
+                style="@style/CheckBox1"
+                android:text="@string/Suzuki" />
+
+            <CheckBox
+                android:id="@+id/Isuzu"
+                style="@style/CheckBox4"
+                android:text="@string/Isuzu" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LinearLayoutHorizontal">
+
+            <CheckBox
+                android:id="@+id/Kia"
+                style="@style/CheckBox1"
+                android:text="@string/Kia" />
+
+            <CheckBox
+                android:id="@+id/SsangYong"
+                style="@style/CheckBox5"
+                android:text="@string/SsangYong" />
+        </LinearLayout>
+
+        <View style="@style/view2" />
+
+        <TextView
+            style="@style/questionNumber"
+            android:text="@string/Q_7" />
+
+        <TextView
+            style="@style/questionText"
+            android:text="@string/Q_7_text" />
+
+        <RadioGroup
+            android:id="@+id/RGroup4"
+            style="@style/RadioGroupVertical">
+
+            <RadioButton
+                android:id="@+id/size_18_inch"
+                style="@style/RadioButtonVertical"
+                android:text="@string/_18_inch" />
+
+            <RadioButton
+                android:id="@+id/size_19_inch"
+                style="@style/RadioButtonVertical"
+                android:text="@string/_19_inch" />
+
+            <RadioButton
+                android:id="@+id/size_20_inch"
+                style="@style/RadioButtonVertical"
+                android:text="@string/_20_inch" />
+        </RadioGroup>
+
+        <View style="@style/view2" />
+
+        <TextView
+            style="@style/questionNumber"
+            android:text="@string/Q_8" />
+
+        <TextView
+            style="@style/questionText"
+            android:text="@string/Q_8_text" />
+
+        <RadioGroup
+            android:id="@+id/RGroup5"
+            style="@style/RadioGroupVertical">
+
+            <RadioButton
+                android:id="@+id/Azera_Limited"
+                style="@style/RadioButtonVertical"
+                android:text="@string/_2012_Hyundai_Azera_Limited" />
+
+            <RadioButton
+                android:id="@+id/Genesis_Coupe"
+                style="@style/RadioButtonVertical"
+                android:text="@string/_2013_Hyundai_Genesis"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/Genesis_sedan"
+                style="@style/RadioButtonVertical"
+                android:text="@string/_2009_Hyundai_Genesis" />
+        </RadioGroup>
+
+        <View style="@style/view2" />
+
+        <LinearLayout style="@style/LinearLayoutVertical">
+
+            <Button
+                style="@style/checkYourScore"
+                android:onClick="checkYourScore"
+                android:text="@string/check_your_Score" />
+
+            <LinearLayout style="@style/LinearLayoutVertica2">
+
+                <TextView
+                    android:id="@+id/number_of_score"
+                    style="@style/textScore"
+                    android:text="@string/_0" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/show_answers"
+                style="@style/Answer"
+                android:onClick="answer"
+                android:text="@string/Answers" />
+
+            <Button
+                android:id="@+id/reset"
+                style="@style/Reset"
+                android:onClick="reset"
+                android:text="@string/reset" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
